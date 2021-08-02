@@ -1,7 +1,7 @@
 <?php
 	#renseigner dans ce fichier l'adresse mail d'envoi et les données du serveur SMTP 
-	require_once("{$_SERVER['DOCUMENT_ROOT']}/lib/PHPMailer/class.phpmailer.php");
-	require_once("{$_SERVER['DOCUMENT_ROOT']}/lib/PHPMailer/PHPMailerAutoload.php");
+	require_once("lib/PHPMailer/class.phpmailer.php");
+	require_once("lib/PHPMailer/PHPMailerAutoload.php");
 	
 	$construction_mail = null;
 	$mail_from='votre_adresse@mail';
